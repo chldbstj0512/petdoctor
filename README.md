@@ -56,8 +56,9 @@ PetDoctor는 반려동물 건강 확인용 AI 기반 RAG(Retrieval-Augmented Gen
 1. git clone
 2. .env파일 설정: OpenAI, Pinecone, LangFuse의 key를 넣어주세요.</br>
 3. Pinecone에 데이터 업서트: python3 src/ingest.py 실행해주세요.</br>
-4. root에서 서버 실행: uvicorn main:app --port 8000
+4. src에서 서버 실행: uvicorn main:app --port 8000
 5. 별도의 터미널을 열어 gradio ui 프론트엔드 실행: python3 app.py</br>
+
 
 
 
