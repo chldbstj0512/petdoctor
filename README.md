@@ -6,7 +6,7 @@ PetDoctor는 반려동물 건강 확인용 AI 기반 RAG(Retrieval-Augmented Gen
 
 ### 목표</br>
 - 프로젝트 목표: 동물병원 내원 전, 반려동물의 상태에 대해 AI가 응급의 정도를 확인하도록 한다.</br>
-- 세부 목표
+- 세부 목표</br>
   (1) 수집된 데이터에서 유사한 케이스를 찾고, 원천 url을 함께 제공한다.</br>
   (2) 내부 점수 체계를 통해 해당 답변에 대한 확신도를 상, 중, 하 로 나누어 함께 제공한다.</br>
   (3) 보호자가 즉시 취해야 할 행동 가이드를 제공한다.
@@ -58,5 +58,6 @@ PetDoctor는 반려동물 건강 확인용 AI 기반 RAG(Retrieval-Augmented Gen
 3. Pinecone에 데이터 업서트: python3 src/ingest.py 실행해주세요.</br>
 4. root에서 서버 실행: uvicorn main:app --port 8000
 5. 별도의 터미널을 열어 gradio ui 프론트엔드 실행: python3 app.py</br>
+
 
 
