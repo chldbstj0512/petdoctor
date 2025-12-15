@@ -41,7 +41,7 @@ PetDoctor는 반려동물 건강 확인용 AI 기반 RAG(Retrieval-Augmented Gen
 | GPT API        | 생성 + 평가 분리         |
 | Langfuse       | 관측 가능성 확보          |
 
-### data </br>
+### Data </br>
 본 프로젝트는 실제 반려동물 보호자가 자주 묻는 의료 질문과 전문가 답변을 기반으로 한 한국어 데이터셋을 사용합니다.</br>
 모델의 신뢰성과 실사용 가능성을 높이기 위해 비전문가 응답과의 대비 구조를 포함하도록 설계되었습니다.</br>
 * 출처: 네이버 지식인(Q&A)
@@ -58,6 +58,7 @@ PetDoctor는 반려동물 건강 확인용 AI 기반 RAG(Retrieval-Augmented Gen
 3. Pinecone에 데이터 업서트: python3 src/ingest.py 실행해주세요.</br>
 4. root에서 서버 실행: uvicorn main:app --port 8000
 5. 별도의 터미널을 열어 gradio ui 프론트엔드 실행: python3 app.py</br>
+
 
 
 
