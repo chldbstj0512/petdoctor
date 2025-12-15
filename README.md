@@ -1,4 +1,4 @@
-🐾 ## PetDoctor - 반려동물 내원 확인용 AI 에이전트
+🐾 PetDoctor - 반려동물 내원 확인용 AI 에이전트
 ---
 ### 프로젝트 개요</br>
 PetDoctor는 반려동물 관련 AI 기반 RAG(Retrieval-Augmented Generation) 서비스 프로젝트입니다.</br>
@@ -58,3 +58,4 @@ PetDoctor는 반려동물 관련 AI 기반 RAG(Retrieval-Augmented Generation) �
 3. Pinecone에 데이터 업서트: python3 src/ingest.py 실행해주세요.</br>
 4. root에서 서버 실행: uvicorn main:app --port 8000
 5. 별도의 터미널을 열어 gradio ui 프론트엔드 실행: python3 app.py</br>
+
